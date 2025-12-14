@@ -9,13 +9,13 @@ Run the Docker container:
 - docker run -p 5000:5000 mlops-docker-demo
 
 Tag the Docker image:
-- docker tag mlops-docker-demo vikash95/mlops-docker-demo:latest
+- docker tag mlops-docker-demo suvankar456/mlops-docker-demo:latest
 
 Push the image to Docker Hub:
-- docker push vikash95/mlops-docker-demo:latest
+- docker push suvankar456/mlops-docker-demo:latest
 
 Pull the image from Docker Hub:
-- docker pull vikash95/mlops-docker-demo:latest
+- docker pull suvankar456/mlops-docker-demo:latest
 
 Run the pulled image:
-- docker run -p 5000:5000 vikash95/mlops-docker-demo:latest
+- docker run -p 5000:5000 suvankar456/mlops-docker-demo:latest
