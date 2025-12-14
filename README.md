@@ -24,4 +24,4 @@ Pull the image from Docker Hub:
 Run the pulled image:
 - docker run -p 5000:5000 suvankar456/mlops-docker-demo:v1
 
-  complete
+
