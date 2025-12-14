@@ -1,3 +1,7 @@
+<img width="623" height="332" alt="image" src="https://github.com/user-attachments/assets/9927688b-7b0a-441c-a197-e8296fbdf84f" />
+
+
+
 # Docker-Masterclass
 This repo is explain how dockers works and how use in for production
 
@@ -9,13 +13,13 @@ Run the Docker container:
 - docker run -p 5000:5000 mlops-docker-demo
 
 Tag the Docker image:
-- docker tag mlops-docker-demo vikash95/mlops-docker-demo:latest
+- docker tag mlops-docker-demo suvankar456/mlops-docker-demo:v1
 
 Push the image to Docker Hub:
-- docker push vikash95/mlops-docker-demo:latest
+- docker push suvankar456/mlops-docker-demo:v1
 
 Pull the image from Docker Hub:
-- docker pull vikash95/mlops-docker-demo:latest
+- docker pull suvankar456/mlops-docker-demo:v1
 
 Run the pulled image:
-- docker run -p 5000:5000 vikash95/mlops-docker-demo:latest
+- docker run -p 5000:5000 suvankar456/mlops-docker-demo:v1
